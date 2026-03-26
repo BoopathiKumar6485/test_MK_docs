@@ -80,3 +80,45 @@ project/
 * Learn full-stack development
 * Understand API + frontend integration
 * Build real-world projects using modern tools
+
+##  Architecture
+* The Architecture show the architecture
+<pre>User (Client)
+│
+└── Frontend Layer (React + Vite)
+│
+├── UI Components (shadcn)
+├── State Management
+├── API Calls (Fetch / Axios)
+│
+└── Backend Communication (HTTP/REST)
+│
+└── Backend Layer (FastAPI)
+│
+├── API Layer (Routes)
+│ ├── GET Requests
+│ ├── POST Requests
+│ ├── PUT/PATCH Requests
+│ └── DELETE Requests
+│
+├── Validation Layer
+│ └── Pydantic Schemas
+│
+├── Business Logic Layer (Services)
+│ ├── Data Processing
+│ ├── Business Rules
+│ └── Error Handling
+│
+├── Data Access Layer
+│ ├── ORM / Queries
+│ └── Database Connection
+│
+└── Database Layer
+│
+├── SQLite (Development)
+└── PostgreSQL (Production)
+│
+├── Tables
+├── Relationships
+└── Indexing
+<pre>
