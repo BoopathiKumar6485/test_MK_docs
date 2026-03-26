@@ -1,0 +1,16 @@
+site_name: My Docs
+site_name: Company Projects Docs
+
+nav:
+  - Home: index.md
+
+  - Ecommerce Project:
+      - Overview: ecommerce/overview.md
+      - Setup: ecommerce/setup.md
+
+  - Desktop App:
+      - Overview: desktop-app/overview.md
+      - Setup: desktop-app/setup.md
+
+theme:
+  name: material
